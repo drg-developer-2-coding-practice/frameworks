@@ -1,0 +1,76 @@
+    1  cd Downloads/
+    2  hostname
+    3  sudo su
+    4  ls -la
+    5  chmod 777 node-v16.10.0-linux-x64.tar.xz
+    6  tar -xf node-v16.10.0-linux-x64.tar.xz 
+    7  cd node-v16.10.0-linux-x64/
+    8  ls
+    9  cat README.md
+   10  cat README.md | less -Si
+   11  sudo yum install -y vim gvim tree less
+   12  sudo zypper install -y vim gvim tree less
+   13  cat README.md | less -Si
+   14  tree
+   15  ls
+   16  ls bin
+   17  cd ..
+   18  sudo mv -nv node-v16.10.0-linux-x64 /usr/bin/
+   19  ls -la /usr/bin/no
+   20  ls -la /usr/bin/node-v16.10.0-linux-x64/
+   21  vim ~/.bashrc
+   22  source ~/.bashrc
+   23  vim ~/.bashrc
+   24  source ~/.bashrc
+   25  which npm
+   26  ls -la ~/.ssh
+   27  ssh-keygen
+   28  cat ~/.ssh/id_rsa.pub
+   29  cd
+   30  mkdir dev
+   31  cd dv
+   32  cd dev
+   33  git clone git@bitbucket.org:panlex_2010/configuration.git
+   34  zypper install -y git kdiff3
+   35  sudo zypper install -y git kdiff3
+   36  git clone git@bitbucket.org:panlex_2010/configuration.git
+   37  cd configuration/
+   38  ls
+   39  cd notes/
+   40  ls
+   41  cd recommended-programs/
+   42  ls
+   43  cat linux.txt
+   44  cat cygwin.txt
+   45  sudo zypper install -y gdmap conky dos2unix psmisc man-db diffutils findutils mpfr ncurses openssh openssl rsync sed tar tree vim socat wget cron screen tmux pdfgrep
+   46  sudo zypper install -y conky dos2unix psmisc diffutils findutils ncurses openssh openssl rsync sed tar tree vim socat wget cron screen tmux pdfgrep
+   47  cd
+   48  cd dev
+   49  cd frameworks/
+   50  mkdir nodejs
+   51  cd nodejs/
+   52  vim ../ReadMe.md
+   53  git add ../ReadMe.md 
+   54  git commit -m "Added a readme."
+   55  git config --global user.email "drg.developer.official@gmail.com"
+   56  git config --global user.name "David Gayman
+   57  git config --global user.name "David Gayman"
+   58  git commit -m "Added a readme."
+   59  git branch
+   60  git push
+   61  mkdir 1
+   62  cd 1
+   63  cd ..
+   64  mkdir tutorials
+   65  mv 1 tutorials/
+   66  cd tutorials/1/
+   67  cd ..
+   68  npx create-react-app my-app
+   69  history | less
+   70  git status
+   71  cat .git/config
+   72  ls
+   73  cd ../../
+   74  cat .git/config
+   75  cd -
+   76  history >commands.txt
